@@ -55,3 +55,12 @@ fi
 # Directory
 alias	md='mkdir -p'
 alias	rd='rmdir'
+
+# Quick change directories
+alias cdws='cd ~/workspace; ll'
+alias cdbash='cd ~/.bash_it; ll'
+alias cdvim='cd ~/.vim; ll'
+
+alias noascii="perl -pe 's/\e\[?.*?[\@-~]//g'"
+alias inline='tr -d "\n"'
+alias cpin="inline | pbcopy"
